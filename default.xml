@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="tub"
+		   fetch="https://github.com/Team-UB"
+           revision="TUB-10" />
+		   	   
+  <remote  name="abun"
+		   fetch="ssh://git@github.com/abun880007"
+           revision="TUB-10" />	
+
+  <remote  name="tub-gitlab"
+           fetch="https://gitlab.com/Team-UB"
+           revision="TUB-10" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -710,6 +721,9 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  
+  <!-- Devices -->
+  <project path="device/samsung/d2x" name="twrp_d2x" remote="abun" />
 
   <!-- OmniROM -->
   <include name="omni-default.xml" />
