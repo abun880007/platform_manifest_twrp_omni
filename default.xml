@@ -5,7 +5,7 @@
            revision="TUB-10" />
 		   	   
   <remote  name="abun"
-		   fetch="https://github.com/abun880007"
+		   fetch="ssh://git@github.com/abun880007"
            revision="TUB-10" />	
 
   <remote  name="tub-gitlab"
