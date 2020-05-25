@@ -723,8 +723,9 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
   
   <!-- Devices -->
-  <project path="device/samsung/d2x" name="twrp_d2x" remote="abun" />
+  <project path="device/samsung/d1" name="twrp_d1" remote="abun" />
   <project path="device/samsung/d2s" name="twrp_d2s" remote="abun" />
+  <project path="device/samsung/d2x" name="twrp_d2x" remote="abun" />
   <project path="device/samsung/gts6lwifi" name="twrp_gts6lwifi" remote="abun" />
 
   <!-- OmniROM -->
