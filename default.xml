@@ -723,9 +723,12 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
   
   <!-- Devices -->
-  <project path="device/samsung/d1" name="twrp_d1" remote="abun" />
-  <project path="device/samsung/d2s" name="twrp_d2s" remote="abun" />
-  <project path="device/samsung/d2x" name="twrp_d2x" remote="abun" />
+  <project path="device/samsung/beyond0lte" name="shrp_device_samsung_beyond0lte" remote="abun" /> 
+  <project path="device/samsung/beyond1lte" name="shrp_device_samsung_beyond1lte" remote="abun" /> 
+  <project path="device/samsung/beyond2lte" name="shrp_device_samsung_beyond2lte" remote="abun" /> 
+  <project path="device/samsung/d1" name="shrp_device_samsung_d1" remote="abun" />
+  <project path="device/samsung/d2s" name="shrp_device_samsung_d2s" remote="abun" />
+  <project path="device/samsung/d2x" name="shrp_device_samsung_d2x" remote="abun" />
   <project path="device/samsung/gts6l" name="twrp_gts6l" remote="abun" />
   <project path="device/samsung/gts6lwifi" name="twrp_gts6lwifi" remote="abun" />
 
