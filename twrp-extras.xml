@@ -33,7 +33,7 @@
     </project>
 
 <!-- Include external Magisk repo for repack binaries -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-10.0" />
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="420rom" revision="420rom-11" />
 
 <!-- Include lineage-tools for lzma support -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS" revision="lineage-17.1" />
