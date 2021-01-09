@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="SHRP" fetch="https://github.com/SHRP" />
+  <remote name="SHRP" fetch="ssh://git@github.com/SHRP" />
 
-  <project path="bootable/recovery" name="bootable_recovery" remote="abun" revision="420rom-11-A10"/>
+  <project path="bootable/recovery" name="shrp_bootable_recovery" remote="abun" revision="420rom-11-A10"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="abun" revision="420rom-11"/>
 
   <!-- Devices -->

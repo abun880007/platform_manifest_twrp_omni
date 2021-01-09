@@ -2,10 +2,10 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="ssh://git@github.com/" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
+           fetch="ssh://git@github.com/omnirom"
            review="gerrit.omnirom.org" />
 
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="omnirom" revision="android-9.0" />

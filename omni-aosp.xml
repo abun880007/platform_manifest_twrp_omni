@@ -2,17 +2,15 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="ssh://git@github.com/" />
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com/omnirom" />
+           fetch="ssh://git@gitlab.com/omnirom" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
+           fetch="ssh://git@github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-  <remote  name="SHRP"
-             fetch="https://github.com/SHRP" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-10" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-10" groups="pdk" />
