@@ -2,10 +2,19 @@
 <manifest>
   
   <remote name="SHRP" fetch="https://github.com/SHRP" />
+  <remote name="SHRP-Devices" fetch="https://github.com/SHRP-Devices" />
 
   <project path="bootable/recovery" name="bootable_recovery" remote="SHRP" revision="android-9.0"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SHRP" revision="v3"/>
   <project path="system/update_engine" name="android_system_update_engine" remote="SHRP" revision="android-9.0"/>
   <!-- Busybox repo -->
   <project path="external/busybox" name="android_external_busybox" remote="SHRP" revision="android-9.0" />
+
+  <!-- Devices -->
+  <project path="device/samsung/c2s" name="shrp_device_samsung_c2s" remote="SHRP-Devices" revision="420rom-11"/>
+  <project path="device/samsung/d1" name="device_samsung_d1" remote="SHRP-Devices" revision="android-9.0"/>
+  <project path="device/samsung/d2s" name="device_samsung_d2s" remote="SHRP-Devices" revision="android-9.0"/>
+  <project path="device/samsung/d2x" name="device_samsung_d2x" remote="SHRP-Devices" revision="android-9.0"/>
+  <project path="device/samsung/gts6l" name="shrp_device_samsung_gts6l" remote="SHRP-Devices" revision="420rom-11"/>
+  <project path="device/samsung/gts6lwifi" name="shrp_device_samsung_gts6lwifi" remote="SHRP-Devices" revision="420rom-11"/>
 </manifest>

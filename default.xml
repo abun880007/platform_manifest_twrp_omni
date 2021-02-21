@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="420rom"
+		   fetch="ssh://git@github.com/420rom"
+           revision="420rom-11" />
+
+  <remote  name="abun"
+		   fetch="ssh://git@github.com/abun880007"
+           revision="420rom-11" />
+		   	   
+  <remote  name="tub"
+		   fetch="ssh://git@github.com/Team-UB"
+           revision="420rom-11" />	
+
+  <remote  name="tub-gitlab"
+           fetch="ssh://git@gitlab.com/Team-UB"
+           revision="TUB-10" />
+
+  <remote  name="420rom-gitlab"
+           fetch="ssh://git@gitlab.com/420rom"
+           revision="TUB-10" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
