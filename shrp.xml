@@ -12,9 +12,9 @@
 
   <!-- Devices -->
   <project path="device/samsung/c2s" name="shrp_device_samsung_c2s" remote="SHRP-Devices" revision="420rom-11"/>
-  <project path="device/samsung/d1" name="device_samsung_d1" remote="SHRP-Devices" revision="android-9.0"/>
-  <project path="device/samsung/d2s" name="device_samsung_d2s" remote="SHRP-Devices" revision="android-9.0"/>
-  <project path="device/samsung/d2x" name="device_samsung_d2x" remote="SHRP-Devices" revision="android-9.0"/>
+  <project path="device/samsung/d1" name="shrp_device_samsung_d1" remote="420rom" revision="420rom-11"/>
+  <project path="device/samsung/d2s" name="shrp_device_samsung_d2s" remote="420rom" revision="420rom-11"/>
+  <project path="device/samsung/d2x" name="shrp_device_samsung_d2x" remote="420rom" revision="420rom-11"/>
   <project path="device/samsung/gts6l" name="shrp_device_samsung_gts6l" remote="SHRP-Devices" revision="420rom-11"/>
   <project path="device/samsung/gts6lwifi" name="shrp_device_samsung_gts6lwifi" remote="SHRP-Devices" revision="420rom-11"/>
 </manifest>
